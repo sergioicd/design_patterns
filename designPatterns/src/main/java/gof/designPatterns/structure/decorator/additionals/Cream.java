@@ -2,7 +2,7 @@ package gof.designPatterns.structure.decorator.additionals;
 
 import gof.designPatterns.structure.decorator.drinks.Beverage;
 
-public class Cream extends AdditionalDecorator{
+public class Cream extends CondimentDecorator{
 
 	public Cream(Beverage drink) {
 		this.drink = drink;
