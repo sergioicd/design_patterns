@@ -1,6 +1,6 @@
 package gof.designPatterns.structure.decorator.drinks;
 
-public class Tea extends Drink{
+public class Tea extends Beverage{
 
 	@Override
 	public Double getPrice() {

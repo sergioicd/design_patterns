@@ -1,9 +1,9 @@
 package gof.designPatterns.structure.decorator.additionals;
 
-import gof.designPatterns.structure.decorator.drinks.Drink;
+import gof.designPatterns.structure.decorator.drinks.Beverage;
 
-public abstract class AdditionalDecorator extends Drink {
+public abstract class AdditionalDecorator extends Beverage {
 
-	protected  Drink drink;
+	protected  Beverage drink;
 	
 }
