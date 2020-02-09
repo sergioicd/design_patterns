@@ -4,13 +4,11 @@ public class Tea extends Beverage{
 
 	@Override
 	public Double getPrice() {
-		// TODO Auto-generated method stub
 		return 0.75;
 	}
 
 	@Override
 	public String getDescription() {
-		// TODO Auto-generated method stub
 		return "Té";
 	}
 

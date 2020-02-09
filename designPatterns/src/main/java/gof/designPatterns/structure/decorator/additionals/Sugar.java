@@ -10,13 +10,11 @@ public class Sugar extends CondimentDecorator{
 	
 	@Override
 	public Double getPrice() {
-		// TODO Auto-generated method stub
 		return drink.getPrice() + 0.34;
 	}
 
 	@Override
 	public String getDescription() {
-		// TODO Auto-generated method stub
 		return drink.getDescription() + " con azúcar";
 	}
 

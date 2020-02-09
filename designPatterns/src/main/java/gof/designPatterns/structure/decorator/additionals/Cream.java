@@ -10,13 +10,11 @@ public class Cream extends CondimentDecorator{
 	
 	@Override
 	public Double getPrice() {
-		// TODO Auto-generated method stub
 		return drink.getPrice() + 1.25;
 	}
 
 	@Override
 	public String getDescription() {
-		// TODO Auto-generated method stub
 		return drink.getDescription() + " con crema";
 	}
 
